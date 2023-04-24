@@ -2,8 +2,8 @@
 
 /**
  * swaps - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @x: The first integer to swap.
+ * @y: The second integer to swap.
  */
 void swaps(int *x, int *y)
 {
@@ -13,6 +13,7 @@ void swaps(int *x, int *y)
 	*x = *y;
 	*y = tmp;
 }
+
 /**
  * bubble_sort - a sorting algorithm it works by repeatedly swappingth
  * adjacent element if they are in the wrong order.
