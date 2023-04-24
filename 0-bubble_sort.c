@@ -16,7 +16,8 @@ void swaps(int *x, int *y)
 
 /**
  * bubble_sort - a sorting algorithm it works by repeatedly swappingth
- * adjacent element if they are in the wrong order.
+ *               adjacent element if they are in the wrong order.
+ *
  * @array: array elements
  * @size: number of elements in array
  */
