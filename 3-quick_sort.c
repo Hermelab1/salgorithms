@@ -8,11 +8,10 @@
  */
 void swap(int *x, int *y)
 {
-        int temp = *x;
-        *x = *y;
-        *y = temp;
+	int temp = *x;
+	*x = *y;
+	*y = temp;
 }
-
 /**
  * lomuto_partition - partitions an array of integers using
  *                    Lomuto partition scheme
